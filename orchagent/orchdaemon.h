@@ -14,6 +14,9 @@
 #include "tunneldecaporch.h"
 #include "qosorch.h"
 #include "bufferorch.h"
+#include "mirrororch.h"
+#include "fdborch.h"
+#include "aclorch.h"
 
 using namespace swss;
 
