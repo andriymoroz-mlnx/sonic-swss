@@ -1643,7 +1643,7 @@ void PortsOrch::doVlanMemberTask(Consumer &consumer)
 
         if (!getPort(port_alias, port))
         {
-            SWSS_LOG_DEBUG("%s is not not yet created, delaying", port_alias.c_str());
+            SWSS_LOG_DEBUG("%s has not been created yet, delaying", port_alias.c_str());
             it++;
             continue;
         }
